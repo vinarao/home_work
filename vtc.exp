@@ -1,0 +1,67 @@
+#!/usr/bin/expect -f
+
+#set UNAME [lindex $argv 0]
+#set PASSWD [lindex $argv 1]
+#set FILE [lindex $argv 2]
+set UNAME cisco
+set PASSWD cisco123
+#set DEVICE soltb1-tor1
+set PORT 3332
+
+spawn telnet 0 $PORT
+
+send "\r"
+
+expect "vtc login:"
+send "$UNAME\r"
+
+expect "Password:"
+send "$PASSWD\r"
+
+expect -re ".*vtc.*$"
+send "date\r"
+
+expect -re ".*vtc.*$"
+send "sudo su\r"
+
+expect ".*password for cisco:"
+send "$PASSWD\r"
+
+#persistent method
+expect -re ".*vtc.*#"
+send "echo auto eth0 >> /etc/network/interfaces\r"
+send "echo iface eth0 inet static >> /etc/network/interfaces\r"
+send "echo address 172.20.98.198 >> /etc/network/interfaces\r"
+send "echo netmask 255.255.255.192 >> /etc/network/interfaces\r"
+send "echo gateway 172.20.98.193 >> /etc/network/interfaces\r"
+send "echo dns-nameservers 171.70.168.183 >> /etc/network/interfaces\r"
+send "echo dns-search cisco.com >> /etc/network/interfaces\r"
+send "ifdown -a && ifup -a\r"
+
+#non-persistent method
+#expect -re ".*vtc.*#"
+#send "ifconfig eth0 172.20.98.198 netmask 255.255.255.192\r"
+
+#expect -re ".*vtc.*#"
+#send "route add -net 0.0.0.0/0 gw 172.20.98.193\r"
+
+expect -re ".*vtc.*#"
+send "ping -c 3 172.20.98.193\r"
+
+#expect -re ".*vtc.*#"
+#send "cd /opt/cisco/package/vtc/bin\r"
+
+#expect -re ".*vtc.*#"
+#send "ls -l\r"
+#send "touch vtc-cfg.ini\r"
+
+#expect -re ".*vtc.*#"
+#set channel [open vtc-cfg.ini a]
+#puts $channel "test"
+#close $channel
+
+expect -re ".*vtc.*#"
+send "exit\r"
+send "exit\r"
+expect eof
+exit 0

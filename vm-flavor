@@ -1,0 +1,12 @@
+source ~/openstack-configs/openrc
+nova flavor-key m1.medium set hw:numa_nodes=1
+nova flavor-key m1.medium set hw:mem_page_size=large
+nova flavor-key m1.tiny set hw:numa_nodes=1
+nova flavor-key m1.tiny set hw:mem_page_size=large
+nova flavor-key m1.large set hw:numa_nodes=1
+nova flavor-key m1.large set hw:mem_page_size=large
+nova flavor-key m1.small set hw:numa_nodes=1
+nova flavor-key m1.small set hw:mem_page_size=large
+nova flavor-key m1.xlarge set hw:numa_nodes=1
+nova flavor-key m1.xlarge set hw:mem_page_size=large
+echo "VM FLAVORS CREATED"

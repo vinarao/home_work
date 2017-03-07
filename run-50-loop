@@ -1,0 +1,19 @@
+#!/bin/bash
+for (( c=1; c<=50; c++ ))
+do  
+   echo "ITERATION $c "
+  source ~/openstack-configs/openrc
+  source ~/openstack-configs/openrc 
+  nova list
+   ./vm-20
+  echo "sleeping for 60 seconds" 
+   sleep 60
+  echo " ALL VM CREATED"
+   nova list
+  echo "sleeping for 90 seconds" 
+   sleep 90 
+   ./delete_all_vm.sh
+   echo "ALL VM DELETED" 
+done
+echo " After 100 iteration bring up 20 VM" 
+./vm-20

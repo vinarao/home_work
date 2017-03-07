@@ -1,0 +1,5867 @@
+source ~/openstack-configs/openrc
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120 
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+
+
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+
+
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+
+
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+
+
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+
+
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+
+
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+
+
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+
+
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date 
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date 
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date 
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date 
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+
+
+
+
+
+
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29801/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120 
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120 
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120 
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120 
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120 
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120 
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120 
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120 
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120 
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+
+
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+date
+./vm-20
+echo "VM CREATED"
+sleep 120
+nova list
+echo "compute1"
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+./delete_all_vm.sh
+sleep 120
+echo "VM DELETED"
+date
+ssh c42-compute-1 cat /proc/29925/status | grep -i Threads
+echo "compute2"
+ssh c42-compute-2 cat /proc/29925/status | grep -i Threads
+sleep 20
+echo "NEW ITERATION"
+echo "*****************************************"
+

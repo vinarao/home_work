@@ -1,0 +1,51 @@
+#!/usr/bin/expect -f
+
+#set UNAME [lindex $argv 0]
+#set PASSWD [lindex $argv 1]
+#set FILE [lindex $argv 2]
+set UNAME cisco
+set PASSWD cisco123
+#set DEVICE soltb1-tor1
+set TELNET_PORT 3333
+set IP_ADDR 101.1.1.4
+set NETMASK 255.255.255.0
+set GATEWAY 101.1.1.1
+set DNS_SERVER 171.70.168.183
+
+spawn telnet 0 $TELNET_PORT
+
+send "\r"
+
+expect "vtc login:"
+send "$UNAME\r"
+
+expect "Password:"
+send "$PASSWD\r"
+
+expect -re ".*vtc.*$"
+send "date\r"
+send "mkdir ~/.ssh\r"
+
+expect -re ".*vtc.*$"
+send "sudo su\r"
+
+expect ".*password for cisco:"
+send "$PASSWD\r"
+
+#persistent method
+expect -re ".*vtc.*#"
+send "echo auto eth0 >> /etc/network/interfaces\r"
+send "echo iface eth0 inet static >> /etc/network/interfaces\r"
+send "echo address $IP_ADDR >> /etc/network/interfaces\r"
+send "echo netmask $NETMASK >> /etc/network/interfaces\r"
+send "echo gateway $GATEWAY >> /etc/network/interfaces\r"
+send "echo dns-nameservers $DNS_SERVER >> /etc/network/interfaces\r"
+send "echo dns-search cisco.com >> /etc/network/interfaces\r"
+send "ifdown -a && ifup -a\r"
+send "ping -c 3 $GATEWAY\r"
+
+expect -re ".*vtc.*#"
+send "exit\r"
+send "exit\r"
+expect eof
+exit 0
