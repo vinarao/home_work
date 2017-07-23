@@ -5,7 +5,7 @@
 # It also sets the user 'cisco' to execute sudo without needing to enter the
 # password.
 #
-# Created by:   Ken Go
+# Created by:   Vinay Rao
 # Last Updated: Mar 28, 2015
 #*******************************************************************************
 

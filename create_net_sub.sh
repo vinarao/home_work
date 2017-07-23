@@ -6,7 +6,7 @@
 #
 # Added multi-tenant network and subnet creation
 #
-# Created by: Ken Go
+# Created by: Vinay Rao
 # Last Update: Apr 08, 2015
 #*******************************************************************************
 

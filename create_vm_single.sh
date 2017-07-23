@@ -7,7 +7,7 @@ source ~/openstack-configs/openrc
 # Supports VM creation for various tenants, although a bit rigid at the moment.
 # The script assumes tenant names are in the form of 'tenant1', 'tenant24', etc.
 #
-# Created by: Ken Go
+# Created by: Vinay Rao
 # Last Updated: Apr 03, 2015
 #*******************************************************************************
 
