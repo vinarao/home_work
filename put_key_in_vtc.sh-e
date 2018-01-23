@@ -22,7 +22,7 @@ do
     REMOTE_IP=$each
     #PUB_KEY=$(cat /home/admin/.ssh/id_rsa.pub) 
     PUB_KEY1=$(cat /home/admin/.ssh/id_rsa.pub) 
-    PUB_KEY2=$(cat /home/admin/Vinay/kego-mac-keypair.txt) 
+    PUB_KEY2=$(cat /home/admin/ken/kego-mac-keypair.txt) 
     LINE_NUM=$(cat /home/admin/.ssh/known_hosts | grep -n $REMOTE_IP | cut -d ':' -f1)
     [ "$LINE_NUM" != "" ] && sed -i "${LINE_NUM}d" /home/admin/.ssh/known_hosts
 

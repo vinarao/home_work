@@ -40,13 +40,6 @@ NETWORK_ID=$(neutron net-list | egrep "[ ]${NETWORK_NAME}[ ]" | cut -d "|" -f2 |
 
 # Execute ping from namespace
 #cat <<EOA
-echo "executing command 'sudo ip netns exec qdhcp-${NETWORK_ID} '"
-
-KNOWN_HOST_FILE="/root/.ssh/known_hosts"
-LINE_NUM=$(cat $KNOWN_HOST_FILE | grep -n $REMOTE_IP | cut -d ':' -f1)
-[ "$LINE_NUM" != "" ] && sed -i "${LINE_NUM}d" $KNOWN_HOST_FILE
-
-COMMAND="sudo ip netns exec qdhcp-${NETWORK_ID} ssh -i /home/admin/Vinay/admin.pem ${VM_IP} -l cirros -o StrictHostKeyChecking=no "
-echo "executing command '$COMMAND'"
-$COMMAND
+echo "executing command 'sudo ip netns exec qdhcp-${NETWORK_ID} ping -c 3 ${VM_IP}'"
+sudo ip netns exec qdhcp-${NETWORK_ID} ping -c 3 ${VM_IP}
 #EOA

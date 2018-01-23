@@ -1,0 +1,23 @@
+source ~/openstack-configs/openrc
+./create_vm_single.sh vm-c1-net1-01
+./create_vm_single.sh vm-c1-net1-02
+./create_vm_single.sh vm-c1-net1-03
+./create_vm_single.sh vm-c1-net1-04
+./create_vm_single.sh vm-c1-net1-05
+./create_vm_single.sh vm-c2-net1-06
+./create_vm_single.sh vm-c2-net1-07
+./create_vm_single.sh vm-c2-net1-08
+./create_vm_single.sh vm-c2-net1-09
+./create_vm_single.sh vm-c2-net1-10
+sleep 30
+./create_vm_single.sh vm-c1-net2-01
+./create_vm_single.sh vm-c1-net2-02
+./create_vm_single.sh vm-c1-net2-03
+./create_vm_single.sh vm-c1-net2-04
+./create_vm_single.sh vm-c1-net2-05
+./create_vm_single.sh vm-c2-net2-06
+./create_vm_single.sh vm-c2-net2-07
+./create_vm_single.sh vm-c2-net2-08
+./create_vm_single.sh vm-c2-net2-09
+./create_vm_single.sh vm-c2-net2-10
+echo " 20 VM created " 

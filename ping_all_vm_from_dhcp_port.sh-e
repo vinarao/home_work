@@ -1,11 +1,11 @@
 #!/bin/bash
 
-[ -e Vinay_testing.log ] && rm Vinay_testing.log
+[ -e ken_testing.log ] && rm ken_testing.log
 
 for vm in $(nova list | egrep -i '(active)' | cut -d "|" -f3)
 do
     VM_NAME=$vm
-    LOG=$(./ping_from_qdhcp_to_vm.sh $VM_NAME | tee -a Vinay_testing.log)
+    LOG=$(./ping_from_qdhcp_to_vm.sh $VM_NAME | tee -a ken_testing.log)
     PACKET_RECEIVED=$(echo "$LOG" | egrep received | awk '{print $4}')
     PACKET_TRANSMIT=$(echo "$LOG" | egrep -o '.*transmitted' | awk '{print $1}')
     if [ "$PACKET_RECEIVED" = "0" ]
