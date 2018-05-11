@@ -8,6 +8,16 @@ echo "Coinbase LTC SELL PRICE: "
 
 while [ 1 ] 
 do
-curl -s https://api.coinbase.com/v2/prices/LTC-USD/sell |  python -c "import json, sys; bitcoin=json.load(sys.stdin); litecoin=bitcoin['data']; print litecoin['amount']"
-sleep 5
+curl -s https://api.coinbase.com/v2/prices/LTC-USD/sell |  python -c "import json, sys; bitcoin=json.load(sys.stdin); litecoin=bitcoin['data']; litecoin['amount']"
+data=$(curl -s https://api.coinbase.com/v2/prices/LTC-USD/sell |  python -c "import json, sys; bitcoin=json.load(sys.stdin); litecoin=bitcoin['data']; print litecoin['amount'];")
+echo $data
+if  [[ (($data > 250.90)) ]]; 
+then
+	echo Sell 
+        echo "Sell" | mail -s "Litecoin advice" vinay4uv@gmail.com
+else 
+        echo Patience
+        echo "why did u buy this piece of shit" | mail -s "Litecoin advice" vinay4uv@gmail.com
+fi
+sleep 50
 done
